@@ -7,7 +7,7 @@ from Greedy import *
 class EGreedy(Estadistico):
     def __init__(self):
         super(EGreedy, self).__init__()
-        self.nombre_csv = "resultados_greedy.csv"
+        self.nombre_csv = "resultados_greedy_chris.csv"
 
     def ejecuta(self):
         for f in self.ficheros:
